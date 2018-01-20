@@ -8,7 +8,7 @@
   MONTHS_IN_YEAR
  } from './constants'
 
- class MonthView extends Component {
+ class Calendar extends Component {
    constructor () {
      super()
      this.nextMonth = this.nextMonth.bind(this)
@@ -67,4 +67,4 @@
    }
  }
 
- export default MonthView
+ export default Calendar
