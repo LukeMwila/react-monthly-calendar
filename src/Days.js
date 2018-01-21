@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import './index.css'
 
 class DaysOfWeek extends Component {
@@ -26,6 +27,10 @@ class DaysOfWeek extends Component {
       </div>
     )
   }
+}
+
+DaysOfWeek.propTypes = {
+  daysOfWeek: PropTypes.array
 }
 
 export default DaysOfWeek

@@ -3,6 +3,7 @@
  import DaysOfWeek from './Days'
  import MonthDates from './MonthDates'
  import moment from 'moment'
+ import PropTypes from 'prop-types'
  import {
   DAYS_IN_WEEK,
   MONTHS_IN_YEAR

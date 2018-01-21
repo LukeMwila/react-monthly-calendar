@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './index.css'
 
 const Months = (props) => {
@@ -14,5 +15,13 @@ const Months = (props) => {
     </div>
   )
 }
+
+ Months.propTypes = {
+  nextMonth: PropTypes.func.isRequired,
+  previousMonth: PropTypes.func.isRequired,
+  month: PropTypes.string,
+  year: PropTypes.string
+}
+
 
 export default Months
